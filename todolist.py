@@ -12,6 +12,7 @@ def limpar_tela():
     os.system('cls' if os.name== 'nt' else 'clear')
 rodando = True
 while rodando:
+    input("Aperte enter para continuar...")
     limpar_tela()
     print("----To do list----")
     print("O que deseja fazer?(Digite o numero correspondente)")
